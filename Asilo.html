@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Asilo</title>
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #e0f7fa, #80deea);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            width: 70%;
+            background-color: #ffffff;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .content {
+            flex: 2;
+            padding: 30px;
+        }
+
+        .sidebar {
+            flex: 1;
+            background-color: #f7f7f7;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .sidebar img {
+            max-width: 90%;
+            border-radius: 12px;
+        }
+
+        h1 {
+            color: #00796b;
+            font-size: 42px;
+            font-weight: bold;
+        }
+
+        h2, h3 {
+            color: #004d40;
+            margin-bottom: 16px;
+        }
+
+        h2 {
+            font-size: 28px;
+        }
+
+        h3 {
+            font-size: 22px;
+        }
+
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .logo {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            transition: transform 0.3s ease;
+            object-fit: cover; 
+        }
+
+        .logo:hover {
+            transform: scale(1.1);
+        }
+
+        .ver-mas-btn {
+            display: inline-block;
+            background-color: #009688; 
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 6px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .ver-mas-btn:hover {
+            background-color: #00796b;
+        }
+    </style>
+</head>
+<body>
+    <img src="union.j.jpeg" alt="Logo" class="logo">
+    <div class="container">
+        <div class="content">
+            <h1>Proyecto Asilo</h1>
+            <h2>¿En qué consiste?</h2>
+            <p>El programa consiste en proporcionar apoyo y compañía a personas de la tercera edad, mejorando su bienestar a través de actividades recreativas.</p>
+            <h3>¿Cómo lo haremos?</h3>
+            <p>Realizaremos visitas al asilo con actividades de carácter recreativo, proporcionando un ambiente cómodo y reconfortante para los adultos mayores.</p>
+            <a href="extra.html" class="ver-mas-btn">Ver más...</a>
+        </div>
+        <div class="sidebar">
+            <img src="Asilo.png" alt="Asilo">
+        </div>
+    </div>
+</body>
+</html>
